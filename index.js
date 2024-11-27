@@ -1,17 +1,20 @@
-import {greeting as greetingChild} from '/workspaces/OS-1-2024b/projects/child-processes.js'
-import {greeting as greetingIpc} from '/workspaces/OS-1-2024b/projects/ipc.js'
-import {greeting as greetingProcessesState} from '/workspaces/OS-1-2024b/projects/processes-state.js'
+import {childprocesses} from '/workspaces/OS-1-2024b/projects/child-processes.js'
+import {ipc} from '/workspaces/OS-1-2024b/projects/ipc.js'
+import {ProcessesState} from '/workspaces/OS-1-2024b/projects/processes-state.js'
 
 console.log("🌟Programa de procesosos🌟")
 let option= process.argv[2];
 switch (option) {
     case 1:
-        greetingChild();
+        childprocesses();
         break;
     case 2:
-        greetingIpc();
+        ipc();
         break;
     case 3:
-        greetingProcessesState();
+        ProcessesState();
         break;
+    default:
+        console.log("😢 opcion invalida");
+    break;
 }
