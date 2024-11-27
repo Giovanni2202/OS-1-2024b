@@ -1,0 +1,24 @@
+{
+  "name": "processes-prj",
+  "version": "1.0.0",
+  "description": "proyecto final de procesos",
+  "type":"module",
+  "main": "index.js",
+
+  "scripts": {
+    "star": "node index.js",
+    "dev":"node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Giovanni2202/OS-1-2024b#os-1-2024b"
+  },
+  "keywords": [
+    "operating",
+    "system",
+    "processes",
+    "node"
+  ],
+  "author": "Giovanni2202",
+  "license": "MIT"
+}

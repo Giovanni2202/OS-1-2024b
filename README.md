@@ -1,4 +1,4 @@
-<center><img scr="md/imagenes/banner_itgam.jpg" atl="Itgam banner">
+<center><img scr="md/imagenes/banner_itgam.jpg" atl="banner_itgam">
 </center>
 
 # OS-1-2024b
