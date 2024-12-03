@@ -11,6 +11,6 @@ export function ipc() {
       });
       
       //Enviando un mensaje al proceso hijo
-      child.send({message: '❄ Merry christmas ❄'});
+      child.send('❄ Merry christmas ❄');
 
 }
